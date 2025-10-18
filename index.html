@@ -42,3 +42,109 @@
 </header>
 
 
+<main id="main">
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to Limitless Fitness, where fitness meets community. Our state-of-the-art facility is designed to inspire and support you at every stage of your journey. Whether you're a beginner or a seasoned athlete, our expert trainers and diverse classes provide the perfect environment to achieve your personal best.</p>
+    
+    <section>
+      <h3>What Sets Us Apart</h3>
+      <ul>
+        <li>Personalized Training: Customized workout plans tailored to your goals.</li>
+        <li>Top-of-the-Line Equipment: The latest gear to ensure effective and safe workouts.</li>
+        <li>Dynamic Classes: From high-intensity interval training (HIIT) to yoga and strength training.</li>
+        <li>Supportive Community: A motivating environment where every member is valued.</li>
+      </ul>
+    </section>
+
+    <img
+      src="images/classes-800.jpg"
+      srcset="images/classes-400.jpg 400w, images/classes-800.jpg 800w, images/classes-1200.jpg 1200w"
+      sizes="(max-width: 600px) 400px, (max-width: 1000px) 800px, 1200px"
+      alt="Group fitness class participants doing cardio exercises" />
+  </section>
+
+  <section id="training">
+    <h2>Personal Training</h2>
+    <p>Take your fitness to the next level with our one-on-one training sessions. Our certified trainers work with you to create a customized plan that fits your lifestyle and targets your specific goals.</p>
+    <a href="#">Book a Free Consultation today!</a>
+
+    <img
+      src="images/dumbells-800.jpg"
+      srcset="images/dumbells-400.jpg 400w, images/dumbells-800.jpg 800w, images/dumbells-1200.jpg 1200w"
+      sizes="(max-width: 600px) 400px, (max-width: 1000px) 800px, 1200px"
+      alt="Close-up of dumbbells lined up in a fitness studio" />
+  </section>
+
+  <section id="membership">
+    <h2>Membership Options</h2>
+    <p>At Limitless Fitness, we offer flexible membership plans to suit your needs.</p>
+    <ul>
+      <li>Monthly Memberships: Perfect for those who want to try us out.</li>
+      <li>Annual Memberships: Commit to your fitness journey and enjoy exclusive perks.</li>
+      <li>Family & Group Plans: Get fit together and save more.</li>
+    </ul>
+
+    <section id="membership-form">
+      <h3>Join Limitless Fitness Today!</h3>
+      <p>Fill out the form below to kickstart your fitness journey:</p>
+
+      <form method="post" action="https://wp.zybooks.com/form-viewer.php">
+        <div>
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" name="fullname" required />
+        </div>
+
+        <div>
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div>
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" pattern="[\d\s()+-]*" />
+        </div>
+
+        <div>
+          <label for="membershipType">Membership Type</label>
+          <select id="membershipType" name="membershipType" required>
+            <option value="">Select a Membership Option</option>
+            <option value="monthly">Monthly Membership</option>
+            <option value="annual">Annual Membership</option>
+            <option value="family">Family & Group Plans</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="goals">Tell us about your fitness goals:</label>
+          <textarea id="goals" name="goals" rows="4" required></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </section>
+</main>
+
+<aside>
+  <h2>Testimonials</h2>
+  <blockquote>
+    “Joining Limitless Fitness has completely transformed my approach to fitness. The supportive community and expert guidance have made all the difference!” – Alex R.
+  </blockquote>
+  <blockquote>
+    “The variety of classes and top-notch equipment keeps me motivated every single day.” – Jamie L.
+  </blockquote>
+</aside>
+
+<footer>
+  <section>
+    <h2>Stay Connected</h2>
+    <!-- social icons here -->
+  </section>
+  <section>
+    <h2>Contact Us</h2>
+    <address>
+      <p>1234 HIIT St.<br>Mesa, AZ 85222<br>480-432-1234</p>
+    </address>
+  </section>
+</footer>
